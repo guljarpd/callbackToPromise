@@ -1,0 +1,25 @@
+{
+  "name": "callbacktopromise",
+  "version": "1.0.0",
+  "description": "Convert your callback function into promise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guljarpd/callbackToPromise.git"
+  },
+  "keywords": [
+    "callbackToPromise",
+    "callback to promise",
+    "callback",
+    "promise"
+  ],
+  "author": "Guljar Prasad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guljarpd/callbackToPromise/issues"
+  },
+  "homepage": "https://github.com/guljarpd/callbackToPromise#readme"
+}
