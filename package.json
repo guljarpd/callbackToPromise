@@ -1,6 +1,6 @@
 {
   "name": "callback-to-promises",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Convert your callback function into promise",
   "main": "index.js",
   "scripts": {
