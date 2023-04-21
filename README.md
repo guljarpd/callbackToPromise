@@ -4,19 +4,21 @@
 
 ## Installation
 
-`npm i callback-to-promises`
+```sh
+    npm i callback-to-promises
+```
 
 ## Examples
 
 Import callbackToPromise
 
-```
+```js
     const callbackToPromise = require('callback-to-promises');
 ```
 
 Then...
 
-``` 
+```js 
     const callbackToPromise = require('callback-to-promises');
 
     function addNumbers(callback) {
@@ -32,7 +34,7 @@ Then...
 
 Example #2
 
-```
+```js
     const callbackToPromise = require('callback-to-promises');
 
     function addNumbers(a, b, callback) {
@@ -50,7 +52,7 @@ Example #2
 
 Example #3 Async/Await
 
-```
+```js
     const callbackToPromise = require('callback-to-promises');
 
     function addNumbers(data, callback) {
