@@ -1,11 +1,23 @@
-# Callback To Promise
+# callback-to-promises
 
-### Convert your callabck function into promise.
+A simple utility to convert Node.js-style callback functions (error-first callbacks) into Promise-based functions. This makes it easy to use legacy callback APIs with modern async/await syntax.
+
+---
+
+## Why use callback-to-promises?
+
+Many Node.js APIs and libraries use callbacks to handle asynchronous results, but Promises and async/await are now the preferred patterns for writing clean, readable asynchronous code. This package helps you bridge that gap effortlessly.
+
+- Converts standard callback functions `(err, result) => {}` into Promise-returning functions
+- Minimal and zero dependencies
+- Easy to integrate with existing callback-based code
+
+---
 
 ## Installation
 
-```sh
-    npm i callback-to-promises
+```bash
+npm install callback-to-promises
 ```
 
 ## Examples
